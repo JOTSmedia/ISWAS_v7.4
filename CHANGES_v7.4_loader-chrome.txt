@@ -1,0 +1,13 @@
+ISWAS_v7.4 — 2026-10-06 (John via MONEYPENNYLANE)
+
+Copied from patched ISWAS_v7.3 (tour speed 33%, no speed pill, mirror non-clickable).
+v7.3 left untouched.
+
+New in v7.4:
+- Nav (.mast) and footer (.site-footer) stay hidden until the loader hits 100%.
+- At 100%, html gets class iswas-chrome and they fade in (~0.55s).
+- During load, html has iswas-loading; cleared when the intro finishes.
+
+Files touched vs v7.3:
+- assets/index-7le_n55D.js
+- assets/styles-DUFhvYpD.css
